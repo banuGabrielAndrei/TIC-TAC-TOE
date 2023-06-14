@@ -1,0 +1,26 @@
+.board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    color: blue;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.grid {
+    background-color: beige;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#restart {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: darkgreen;
+}
+
+#resultDisplay {
+    text-align: center;
+    font-size: xx-large;
+}
